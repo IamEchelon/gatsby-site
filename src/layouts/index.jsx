@@ -1,0 +1,32 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import Sidebar from '../components/sidebar/Sidebar'
+import '../styles/main.module.css'
+
+const style = {
+  display: 'grid',
+  gridTemplateColumns: '20% 75%'
+}
+
+const TemplateWrapper = ({ children }) => (
+  <div>
+    <Helmet
+      title="BrentBrinkley.com"
+      meta={[
+        { name: 'description', content: 'Sample' },
+        { name: 'keywords', content: 'sample, something' }
+      ]}
+    />
+    <div style={style}>
+      <Sidebar />
+      <div>{children()}</div>
+    </div>
+  </div>
+)
+
+TemplateWrapper.propTypes = {
+  children: PropTypes.func
+}
+
+export default TemplateWrapper
