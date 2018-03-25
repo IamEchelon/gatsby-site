@@ -33,7 +33,7 @@ const Sidebar = () => (
   <div style={style}>
     <ProfileComponent />
     <Link to="/">Home</Link>
-    <Link to="/Posts">Blog Posts</Link>
+    <Link to="/posts/">Blog Posts</Link>
   </div>
 )
 
