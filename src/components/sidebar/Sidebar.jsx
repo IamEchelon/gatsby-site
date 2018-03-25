@@ -6,11 +6,11 @@ import ProfileComponent from './ProfileComponent'
 -----------------------------------------------------
  Styles Are here and awesome 
 -----------------------------------------------------
- */
+*/
 
 const style = {
   height: '100%',
-  backgroundColor: 'grey',
+  backgroundColor: 'gray',
   position: 'fixed',
   zIndex: 1,
   top: 0,
@@ -27,13 +27,13 @@ const style = {
 -----------------------------------------------------
  Our fanstastic Jsx Object
 -----------------------------------------------------
- */
+*/
 
 const Sidebar = () => (
   <div style={style}>
     <ProfileComponent />
     <Link to="/">Home</Link>
-    <Link to="/page-2/">Page 2</Link>
+    <Link to="/Posts">Blog Posts</Link>
   </div>
 )
 

@@ -24,7 +24,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "gatsby-plugin-typography": "^1.7.18",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-transformer-remark": "^1.7.37",
     "prettier": "^1.11.1",
     "typography-theme-alton": "^0.15.10"
   }

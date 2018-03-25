@@ -5,28 +5,25 @@ import FontAwesome from 'react-fontawesome'
 class Icons extends React.Component {
   /*
   -----------------------------------------------------
-    Initialize
+    Model
   -----------------------------------------------------
   */
 
-  constructor(props) {
-    super(props)
-    this.state = {
-      icons: [
-        {
-          name: 'linkedin',
-          link: 'https://www.linkedin.com/in/brent-brinkley-21932435/'
-        },
-        {
-          name: 'github',
-          link: 'https://github.com/IamEchelon'
-        },
-        {
-          name: 'twitter',
-          link: 'https://twitter.com/BrentsMind'
-        }
-      ]
-    }
+  state = {
+    icons: [
+      {
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/brent-brinkley-21932435/'
+      },
+      {
+        name: 'github',
+        link: 'https://github.com/IamEchelon'
+      },
+      {
+        name: 'twitter',
+        link: 'https://twitter.com/BrentsMind'
+      }
+    ]
   }
 
   /*
