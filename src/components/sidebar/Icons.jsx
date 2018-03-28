@@ -36,18 +36,16 @@ class Icons extends React.Component {
     const styles = {
       display: 'flex',
       justifyContent: 'center'
-      // border: '1px solid red'
     }
 
     const iconStyles = {
-      // boderSize: '0.5px',
-      // borderStyle: 'solid',
       padding: 10,
-      margin: 4
+      margin: 4,
+      color: 'white'
     }
 
     return (
-      <div style={styles}>
+      <div css={styles}>
         {this.state.icons.map((icon, index) => (
           <a href={icon.link} key={index}>
             <FontAwesome name={icon.name} style={iconStyles} size="2x" />

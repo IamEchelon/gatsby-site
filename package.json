@@ -8,6 +8,7 @@
     "gatsby": "^1.9.223",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-react-helmet": "^2.0.6",
+    "mo-js": "^0.288.2",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0",
     "typography": "^0.16.6",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "gatsby-plugin-glamor": "^1.6.13",
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.27",
     "gatsby-transformer-remark": "^1.7.37",

@@ -4,13 +4,14 @@ import ProfileComponent from './ProfileComponent'
 
 /*
 -----------------------------------------------------
- Styles Are here and awesome 
+ Styles
 -----------------------------------------------------
 */
 
 const style = {
   height: '100%',
-  backgroundColor: 'gray',
+  // backgroundImage: 'linear-gradient(to right, DarkSlateBlue, Tomato)',
+  backgroundColor: 'DarkSlateBlue',
   position: 'fixed',
   zIndex: 1,
   top: 0,
@@ -20,20 +21,33 @@ const style = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  alignContent: 'center'
+  alignContent: 'center',
+  justifyContent: 'center',
+  '@media only screen and (max-width: 600px)': {
+    backgroundColor: 'green'
+  }
 }
+
+const linkColor = { color: 'white' }
 
 /*
 -----------------------------------------------------
- Our fanstastic Jsx Object
+ Render
 -----------------------------------------------------
 */
 
 const Sidebar = () => (
-  <div style={style}>
+  <div css={style}>
     <ProfileComponent />
-    <Link to="/">Home</Link>
-    <Link to="/posts/">Blog Posts</Link>
+    <Link to="/" css={linkColor}>
+      Home
+    </Link>
+    <Link to="/posts" css={linkColor}>
+      Blog
+    </Link>
+    <Link to="/Work" css={linkColor}>
+      Work
+    </Link>
   </div>
 )
 

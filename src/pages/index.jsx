@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import NavContainer from '../components/examples/navbar/NavContainer'
 
 const IndexPage = () => (
   <div>
-    <h1>Richard Hamming on Luck</h1>
+    <h1>Components</h1>
+    <NavContainer />
     <div>
       <p>
         From Richard Hamming’s classic and must-read talk, “<a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">

@@ -14,7 +14,7 @@ const style = {
     flexDirection: 'column',
     alignItems: 'center',
     color: 'white',
-    margin: '30px 0'
+    marginBottom: '30px'
   },
   titleBox: {
     display: 'flex',
@@ -22,7 +22,7 @@ const style = {
     flexDirection: 'column',
     alignItems: 'center',
     border: '1px solid white',
-    padding: '10px 50px',
+    padding: '10px 30px',
     marginBottom: 40
   },
   title: {
@@ -43,7 +43,7 @@ const ProfileComponent = () => (
     <ProfilePic />
     <div style={style.titleBox}>
       <h1 style={style.title}>Brent Brinkley</h1>
-      <h2 style={style.title}>Web Developer</h2>
+      <h2 style={style.title}>Front End Developer</h2>
     </div>
     <Icons />
   </div>

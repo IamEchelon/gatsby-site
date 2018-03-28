@@ -1,5 +1,5 @@
 import React from 'react'
-import me from '../../static/img/profile.jpg'
+import me from '../../static/img/profile1.jpg'
 
 const imgStyle = {
   borderRadius: '50%',
